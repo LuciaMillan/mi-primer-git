@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - HTML</title>
+</head>
+<body>
+
+    <!-- Agrupar todo lo referido a una barra de navegacion. -->
+    <header>
+        <a href="#">
+        <img src="https://via.placeholder.com/50" alt="Logo"/>
+        </a>
+      <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        </ul> 
+      </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <div>
+        <section>
+            <h1>Bienvenidos a mi pagina web</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, voluptatum.</p>
+            <a href="#">Contacto</a>
+        </div>
+        <img src="https://via.placeholder.com/200" alt="">
+        </section>
+        <hr>
+        <section>
+
+            <h2>Mis servicio</h2>
+
+            <div>
+            <h3>Paginas web</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#">Comprar</a>
+            </div>
+
+            <div>
+            <h3>Paginas web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Comprar</a>
+            </div>
+        </section>
+        <hr>
+        <!-- Formularios -->
+        <section>
+         <h2>Contacto</h2>
+
+         <form>
+            <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Lionel Messi"/>
+            </div>
+
+            <div>
+            <label for="email"> Email</label>
+            <input type="email" placeholder="Lionel@Messi.com" id="email">
+            </div>
+
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Ingresa una Contraseña">
+            </div>
+
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" id="age" min="0" max="100">
+            </div>
+            <input type="submit" value="Enviar">
+            <!-- <button>Enviar</button> -->
+
+            <div>
+                <input type="checkbox" id="span">
+                <label for="span">Acepto recibir span todos los dias</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="terms">
+                <label for="span">Acepto terminos y condiciones</label>
+            </div>
+            <div>
+                <p>Gusto de helado favorito</p>
+                <div>
+                    <input type="radio" id="Chocolate" name="gustos">
+                    <label for="Chocolate">Chocolate</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Limon" name="gustos">
+                    <label for="Limon">Limon</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="Banana" name="gustos">
+                    <label for="Banana">Banana</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="juego">jugar</label>
+                <select name="juego" id="juego">
+                <option value="piedra">piedra</option>
+                <option value="papel">papel</option>
+                <option value="tijera">tijera</option>
+                </select>
+            </div>
+          
+            <div>
+                <label for="menasaje">menasaje</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" maxlength="30"></textarea>
+            </div>
+
+            <!-- telefono -->
+            <div>
+                <label for="tel">Telefono</label>
+                <input type="tel">
+            </div>
+
+            <div>
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date">
+            </div>
+
+            <!-- otros -->
+
+            <div>
+                <input type="color">
+                <br>
+                <input type="range" min="0" max="5">
+                <br>
+                <input type="file">
+                <br>
+                <input type="search">
+                <br>
+                <input type="image">
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>Hecho con ❤️ en Nucba</p>
+        <!-- Windows+. y se hace el emoji -->
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
